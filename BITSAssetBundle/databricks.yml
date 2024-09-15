@@ -1,0 +1,16 @@
+# This is a Databricks asset bundle definition for BITSAssetBundle.
+# See https://docs.databricks.com/dev-tools/bundles/index.html for documentation.
+bundle:
+  name: BITSAssetBundle
+
+include:
+  - resources/*.yml
+
+targets:
+  dev:
+    mode: development
+    default: true
+    workspace:
+      host: https://adb-3622974309867978.18.azuredatabricks.net
+
+
