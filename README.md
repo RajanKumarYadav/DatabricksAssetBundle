@@ -3,6 +3,8 @@
 
 ## Topics To Be Covered
 
+## Aim : This session will explain how to achieve reproducibility in ML and MLOps using Databricks. 
+
 1. Setup Azure Databricks Extension and CLI in VS Code
 2. Databricks Template
 3. Databricks Asset Bundles
