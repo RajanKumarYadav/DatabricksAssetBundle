@@ -2,7 +2,7 @@ import mlflow
 import pandas as pd
 
 # Specify the model URI (adjust this as needed)
-model_uri = 'runs:/2778d98de5e64543a7e2c0ff866b42b3/model_diabetes_prediction'
+model_uri = 'runs:/fc4090ff8f3f406f912a74a0d25a1782/model_diabetes_prediction'
 
 # Load the model from the specified model URI
 try:

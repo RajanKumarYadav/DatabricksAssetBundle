@@ -28,7 +28,7 @@ databricks bundle deploy
 ```
 
 ```bash
-databricks bundle run
+databricks bundle run <job_name>
 ```
 
 ### Reference

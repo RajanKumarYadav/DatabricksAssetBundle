@@ -1,0 +1,20 @@
+# The inference job for BITSAssetBundle.
+resources:
+  jobs:
+    inference_job:
+      name: inference_job
+
+
+      email_notifications:
+        on_failure:
+          - rajan.ky@wilp.bits-pilani.ac.in
+
+
+      tasks:
+     
+        - task_key: inference_pipeline
+          existing_cluster_id: 0919-061459-d2ncxved
+          spark_python_task:
+            python_file: ../src/inference.py  # Make sure this path is correct 
+        
+

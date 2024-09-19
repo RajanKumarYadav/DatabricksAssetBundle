@@ -1,0 +1,19 @@
+# The training job for BITSAssetBundle.
+resources:
+  jobs:
+    training_job:
+      name: training_job
+
+
+      email_notifications:
+        on_failure:
+          - rajan.ky@wilp.bits-pilani.ac.in
+ 
+      tasks:
+        - task_key: training_pipeline
+          existing_cluster_id: 0919-061459-d2ncxved
+          spark_python_task:
+            python_file: ../src/train.py  # Make sure this path is correct
+
+        
+
