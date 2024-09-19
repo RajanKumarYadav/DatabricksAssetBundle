@@ -1,6 +1,3 @@
-# ML Training Workflows
-
-
 ## Topics To Be Covered
 
 ### Aim : This session will explain how to achieve reproducibility in ML and MLOps using Databricks. 
